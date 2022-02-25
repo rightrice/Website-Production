@@ -17,24 +17,28 @@ a:link {
   color: #42f55d;
   background-color: transparent;
   text-decoration: none;
+  font-size: 1rem;
 }
 
 a:visited {
   color: #57c4ff;
   background-color: transparent;
   text-decoration: none;
+  font-size: 1rem;
 }
 
 a:hover {
   color: #ffbe57;
   background-color: transparent;
   text-decoration: underline;
+  font-size: 1rem;
 }
 
 a:active {
   color: #ffbe57;
   background-color: transparent;
   text-decoration: underline;
+  font-size: 1rem;
 }	
 	
 body{
@@ -469,7 +473,7 @@ h3 {
 }
 	
 h6 {
-  color: #42f55d;
+  color: cornflowerblue;
   position: relative;
   text-transform: uppercase;
   font-family: open-sans-condensed, sans-serif;
@@ -920,12 +924,12 @@ void main(void)
 			<section class="section">
 				<figure class="right">
 					<figcaption>
-						<h2>Resume</h2>
+						<h2 id="Resume">Resume</h2>
 						<p>I am currently studying Cybersecurity at Corning Community College with plans to transfer to The University of Alabama in the Fall of 2022. You can find my resume and more on my linkedin.
 							<br><a href="https://www.linkedin.com/in/alan-specchio/" target="_blank">Click Here</a><br>
 							<a href="Alan-Specchio-Jr-Resume.pdf" download="Alans-Resume" target="_blank">download resume</a>
 						<br>
-						<h6>Scroll for more</h6>
+						<h6>Scroll for <a href="#Contact">more</a></h6>
 						</p>
 					</figcaption>
 				</figure>
@@ -934,9 +938,9 @@ void main(void)
 			<section class="section">
 				<figure class="left">
 					<figcaption>
-						<h2>Contact</h2>
+						<h2 id="Contact">Contact</h2>
 						<p>Modes of conversation below! <br><a href="mailto:alan.specchio@protonmail.com">Email</a> <br><a href="tel:+16073466979">+1 (607).346.6979</a><br>
-						<h6>Scroll for more</h6></p>
+						<h6>Scroll for <a href="#Mining">more</a></h6></p>
 					</figcaption>
 				</figure>
 			</section>
@@ -944,9 +948,9 @@ void main(void)
 			<section class="section">
 				<figure class="right">
 					<figcaption>
-						<h2>Mining</h2>
+						<h2 id="Mining">Mining</h2>
 						<p>I started a business called <br>[ ASPECT ] mining Ethereum, I have several rigs that all run on linux. Mining has been a very educational experience in both technology and business aspects. <br>
-						<h6>Scroll for more</h6></p>
+						<h6>Scroll for <a href="#Hobbies">more</a></h6></p>
 					</figcaption>
 				</figure>
 			</section>
@@ -954,9 +958,9 @@ void main(void)
 			<section class="section">
 				<figure class="left">
 					<figcaption>
-						<h2>Hobbies</h2>
+						<h2 id="Hobbies">Hobbies</h2>
 						<p>I enjoy swimming, technology, cryptocurrencies, blockchains, movies and games. I am currently building my own version of the WiFi Pineapple using an RPI, plus developing this website! Currently this is being hosted on Cloudflare, however I have plans of hosting on my own. Just waiting on components to come in stock.<br>
-						<h6>Scroll for more</h6></p>
+						<h6>Scroll for <a href="#Links">more</a></h6></p>
 					</figcaption>
 				</figure>
 			</section>
@@ -964,33 +968,33 @@ void main(void)
 			<section class="section">
 				<figure class="right">
 					<figcaption>
-						<h2>Links</h2>
+						<h2 id="Links">Links</h2>
 						<p><ul>
 						<li><a href="https://www.linkedin.com/in/alan-specchio/" target="_blank">LinkedIn</a></li>
 						<li><a href="https://github.com/rightrice" target="_blank">GitHub</a></li>
 						<li><a href="https://instagram.com/the_aspect" target="_blank">Instagram</a></li>
 						</ul><br>
-						<h6>Scroll for more</h6></p>
+						<h6>Scroll for <a href="#btc">more</a></h6></p>
 					</figcaption>
 				</figure>
 			</section>
 			<section class="section">
 				<figure class="left">
 					<figcaption>
-						<h2>BTC Wallet</h2>
+						<h2 id="btc">BTC Wallet</h2>
 						<p><img src="btc-qr-code.png" alt="BTC QR Code" style="width:250px;height:250px;">
 						<br>
 						<p id="p1">bc1q0y47lnks0mk9nl706qcw2ezp49qk6lhja3vns7</p>
 						<button onclick="copyToClipboard('#p1')">Copy Address</button>
 						<br>
-						<h6>Scroll for more</h6></p>
+						<h6>Scroll for <a href="#eth">more</a></h6></p>
 					</figcaption>
 				</figure>
 			</section>
 			<section class="section">
 				<figure class="right">
 					<figcaption>
-						<h2>ETH Wallet</h2>
+						<h2 id="eth">ETH Wallet</h2>
 						<p><img src="eth-qr-code.png" alt="ETH QR Code" style="width:250px;height:250px;">
 						<br>						
 						<p id="p2">0xb2D16d9A65345b22c63a855FF8ed0E249e62DdD7</p>
